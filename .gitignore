@@ -1,0 +1,6 @@
+# Exclude files used only by CLASP (contains the script ID)
+    .clasp.json
+
+    # Exclude logs or IDE configuration files
+    .DS_Store
+    .vscode/

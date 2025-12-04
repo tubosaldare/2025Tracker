@@ -1,6 +1,6 @@
 # 2025 Vessel Tracker
 
-**Owner:** Dwayne Kutz  
+**Owner:** Dwayne Kutz
 **Context:** Smoky Energy Solutions Inc. - Vessel Production Tracking
 
 This repository contains the backend Google Apps Script code for the 2025 Vessel Tracker Google Sheet.
@@ -14,7 +14,8 @@ This project is configured with GitHub Actions.
 
 ## 📂 File Directory
 
-* **`Code.js`**: Core logic, menu creation (`onOpen`), and global triggers.
+* **`Code.js`**: Main entry point for global variables and shared utility functions.
+* **`onopen.js`**: Trigger that runs when the Sheet loads. Creates the custom menu in the toolbar.
 * **`emailLastDay.js`**: Automation for sending end-of-day status reports and notifications.
 * **`getOrCreateFolder.js`**: Utility script to manage Google Drive folder hierarchy for vessel documentation.
 * **`getSheetDataValues.js`**: Helper function to retrieve and sanitize data ranges from the Sheet.
